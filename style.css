@@ -87,7 +87,50 @@ p {
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-section{
+section {
     display: inline-block;
     margin-left: 86px;
+}
+
+@media screen and (max-width: 912px) {
+    .link-header {
+        display: none;
+    }
+
+    .btn-login {
+        display: none;
+    }
+
+    .img-logo {
+        margin: 12px 75px;
+        width: 66%;
+        height: 46%;
+        flex-shrink: 0;
+    }
+
+    p {
+        display: none;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        margin-top: 22px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 7px;
+    }
+
+    .btn-explore{
+        margin-top: 27px;
+    }
 }
